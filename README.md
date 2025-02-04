@@ -60,7 +60,18 @@ case 'appledl': {
 break
 ```
 
-### SOURCODE API GPT TURBO
+### SOURCODE RANDOM VID BOCIL
+```
+case 'bocil': {
+await conn.sendMessage(m.chat,{
+video: {url: "https://www.api.im-rerezz.xyz/api/bocil"},
+caption: `Random ${command}`,
+),{quoted: m}}
+}
+break
+```
+
+### SOURCODE GPT TURBO
 ```
 case 'gpt': {
     if (!text) return m.reply('Masukkan pesan yang ingin dikirim ke GPT.\nContoh: .gpt Halo, apa kabar?');
